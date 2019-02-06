@@ -1,4 +1,5 @@
-[
+
+const BlacklistedPassword = [
 "1234",
 "wera",
 "werA",
@@ -333,3 +334,5 @@
 "okm,",
 "pl,."
 ]
+
+export default BlacklistedPassword;
