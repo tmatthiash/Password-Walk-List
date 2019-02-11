@@ -4,5 +4,6 @@ export default Array.of(BlacklistedPasswords).forEach((pattern)=>{
     if(password.includes(pattern)){
         return true
     }
+    return false
 })
-return false
+

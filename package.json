@@ -1,9 +1,13 @@
 {
     "name": "keyboardwalkblock",
-    "version": "1.0.0",
-    "description" : "Utility that checks a string against commonly used keyboard based passwords",
+    "version": "1.0.2",
+    "description": "Utility that checks a string against commonly used keyboard based passwords",
     "license": "MIT",
-    "keywords":[
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tmatthiash/Password-Walk-List"
+    },
+    "keywords": [
         "password",
         "keyboard walk",
         "keyboard pattern",
