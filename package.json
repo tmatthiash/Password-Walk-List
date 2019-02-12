@@ -1,6 +1,6 @@
 {
     "name": "keyboardwalkblock",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Utility that checks a string against commonly used keyboard based passwords",
     "license": "MIT",
     "repository": {

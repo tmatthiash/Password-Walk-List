@@ -2,14 +2,10 @@
 const BlacklistedPasswords = require('./PasswordWalks.json')
 
 export default function passwordMatchFound(password) {
-    const matches = BlacklistedPasswords.reduce((accumulator=0, currentValue) => {
-        if(password.includes(currentValue)){
-            return accumulator + 1
+    for (let i = 0; i < BlacklistedPasswords.length; i++) {
+        if (password.includes(BlacklistedPasswords[i])) {
+            return true;
         }
-        return accumulator
-    },0)
-    if(matches>0){
-        return true
     }
     return false
 }
